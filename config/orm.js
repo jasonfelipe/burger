@@ -71,7 +71,7 @@ const orm = {
                 console.log(err);
             }
 
-            cb(reuslt);
+            cb(result);
         });
     },
 
