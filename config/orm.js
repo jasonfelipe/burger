@@ -41,7 +41,7 @@ function objToSql(ob) {
 
 const orm = {
     selectAll: function (tableInput, cb) {
-        console.log("This selects all");
+    
         var queryString = "SELECT * FROM " + tableInput + ";";
         connection.query(queryString, function (err, result) {
             if (err) {
@@ -53,7 +53,6 @@ const orm = {
     },
 
     insertOne: function (table, cols, vals, cb) {
-        console.log("This inserts one");
 
         let queryString = "INSERT INTO " + table;
 

@@ -10,13 +10,12 @@ router.get("/", function (req, res) {
         const hbsObject = {
             burgers: data
         };
-        console.log(hbsObject);
         res.render("index", hbsObject);
     });
 })
 
 router.post("/api/burgers", function (req, res) {
-    burger.create([
+    burger.insertOne([
         "burger_name", "devoured"
     ], [
             req.body.burger_name, req.body.devoured
@@ -31,7 +30,7 @@ router.put("/api/burgers/:id", function (req, res) {
 
     console.log("condition", condition);
 
-    burgers.update({
+    burgers.updateOne({
         devoured: req.body.devoured
     }, condition, function (result) {
         if (result.changedRows == 0) {
