@@ -5,12 +5,12 @@ $(function() {
       event.preventDefault();
   
       var newBurger = {
-        name: $("#burger_name").val().trim(),
+        burger_name: $("#burger").val().trim(),
         devoured: 0
       };
   
       // Send the POST request.
-      $.ajax("/api/cats", {
+      $.ajax("/api/burgers", {
         type: "POST",
         data: newBurger
       }).then(
