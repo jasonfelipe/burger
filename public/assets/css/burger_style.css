@@ -1,7 +1,9 @@
 body {
-    background-color: darkcyan
+    background-color: darkcyan;
+    color: yellow;
 }
 
 h1 {
     color: pink
 }
+
