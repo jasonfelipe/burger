@@ -1,4 +1,10 @@
-<li>
-	{{burger_name}}
-	<button class="devour-burger" data-id="{{this.id}}">DEVOUR!</button>
+<li class="burgerlist">
+	<img src="../../../img/burger.png" alt="burger_picture"> {{burger_name}}
+
+	<button class="devour-burger" data-id="{{id}}" data-newdevour ="{{devour}}">
+		DEVOUR!
+	</button>
+
+	<button class="delete-burger" data-id="{{this.id}}">Delete</button>
+
 </li>

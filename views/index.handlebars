@@ -10,6 +10,16 @@
   {{/each}}
 </ul>
 
+<h2 id="devourcolor">DEVOURED BURGERS!</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#if devoured}}
+      {{> burgers/burger-block devoured=true}}
+    {{/if}}
+  {{/each}}
+</ul>
+
 <h2>Add a Burger!</h2>
 <form class="create-form">
 

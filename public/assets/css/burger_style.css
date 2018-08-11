@@ -1,9 +1,35 @@
 body {
+    text-align: center;
     background-color: darkcyan;
     color: yellow;
 }
 
+img {
+    height: 150px;
+    width: 200px;
+}
+
+li {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
 h1 {
+    text-align: center;
     color: pink
 }
 
+.create-form {
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    margin: 5px;
+}
+
+#devourcolor {
+    color: orange;
+}
