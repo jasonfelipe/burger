@@ -4,7 +4,8 @@
   "description": "A small app that allows the user to create a burger and eat it! This app features a simple MVC.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
