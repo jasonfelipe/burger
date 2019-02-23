@@ -2,7 +2,7 @@
 A small app that allows the user to create a burger and eat it! This app features a simple MVC. 
 
 ## LINK TO HOSTED APP 
-https://damp-atoll-61944.herokuapp.com/
+https://burgertimefunjasonf.herokuapp.com/ 
 
 # Gettting Started
 Please download node.js and 'npm i' the files in order to run the server file. 
